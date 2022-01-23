@@ -1,0 +1,7 @@
+﻿     Создается библиотека C:\Users\e.kolchenko\Desktop\init\FFTCuda\x64\Debug\FFTCuda.lib и объект C:\Users\e.kolchenko\Desktop\init\FFTCuda\x64\Debug\FFTCuda.exp
+kernel.cu.obj : error LNK2019: ссылка на неразрешенный внешний символ cufftPlan1d в функции "void __cdecl runTest(void)" (?runTest@@YAXXZ).
+kernel.cu.obj : error LNK2019: ссылка на неразрешенный внешний символ cufftCreate в функции "void __cdecl runTest(void)" (?runTest@@YAXXZ).
+kernel.cu.obj : error LNK2019: ссылка на неразрешенный внешний символ cufftExecC2C в функции "void __cdecl runTest(void)" (?runTest@@YAXXZ).
+kernel.cu.obj : error LNK2019: ссылка на неразрешенный внешний символ cufftDestroy в функции "void __cdecl runTest(void)" (?runTest@@YAXXZ).
+kernel.cu.obj : error LNK2019: ссылка на неразрешенный внешний символ cufftXtMakePlanMany в функции "void __cdecl runTest(void)" (?runTest@@YAXXZ).
+C:\Users\e.kolchenko\Desktop\init\FFTCuda\x64\Debug\FFTCuda.exe : fatal error LNK1120: неразрешенных внешних элементов: 5
